@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\YetAnotherFitnessTracker.API\YetAnotherFitnessTracker.API.csproj" />
+      <ProjectReference Include="..\YetAnotherFitnessTracker.Business\YetAnotherFitnessTracker.Business.csproj" />
+      <ProjectReference Include="..\YetAnotherFitnessTracker.Domain\YetAnotherFitnessTracker.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
