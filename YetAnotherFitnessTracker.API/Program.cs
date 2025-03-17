@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 using YetAnotherFitnessTracker.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,12 +14,14 @@ builder.Services.AddDbContext<AppDbContext>(optionsBuilder =>
     }
     );
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();

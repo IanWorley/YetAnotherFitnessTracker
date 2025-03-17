@@ -11,4 +11,8 @@
       <ProjectReference Include="..\YetAnotherFitnessTracker.Infrastructure\YetAnotherFitnessTracker.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Service\" />
+    </ItemGroup>
+
 </Project>
