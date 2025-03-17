@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>YetAnotherFitnessTracker</RootNamespace>
+        <UserSecretsId>884c32c5-5ac2-4892-9c42-fe41dd975678</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
